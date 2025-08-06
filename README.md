@@ -1,4 +1,4 @@
-# DRE Report Analyzer
+# Financial KPI's
 
 Este projeto é um script Python para análise de receitas e despesas de restaurantes, com foco em boas práticas de programação, organização de código e automação de validações de dados. O objetivo é demonstrar habilidades de desenvolvimento, utilizando técnicas modernas e código limpo.
 
@@ -122,3 +122,4 @@ Atualmente, os indicadores são apresentados diretamente no console. No entanto,
 - O código está pronto para expansão, com fácil inclusão de novos KPIs ou validações.
 
 - As docstrings e registros de logging foram inicialmente gerados por IA e posteriormente revisados por humanos.
+
