@@ -90,12 +90,13 @@ class KPIAnalyzer:
 Apresenta os resultados de forma clara e formatada, facilitando a interpretação.
 
 **Apresentação dos KPIS**
-                Indicador           Valor
-            Receita Total R$ 2.386.079,42
-            Despesa Total R$ 1.958.414,02
-   Margem Operacional (%)          17,92%
-             Ticket Médio       R$ 989,66
-% Marketing sobre Receita          21,45%
+| Indicador                  | Valor            |
+|----------------------------|------------------|
+| Receita Total              | R$ 2.386.079,42  |
+| Despesa Total              | R$ 1.958.414,02  |
+| Margem Operacional (%)     | 17,92%           |
+| Ticket Médio               | R$ 989,66        |
+| % Marketing sobre Receita  | 21,45%           |
 
 **Observação**
 Atualmente, os indicadores são apresentados diretamente no console. No entanto, o programa foi modularizado de forma que seja simples incluir esses indicadores em dashboards, exportá-los para outros formatos de arquivo, salvar em tabelas de banco de dados ou até mesmo integrá-los a ferramentas como Power BI, Looker, entre outras.
@@ -119,4 +120,5 @@ Atualmente, os indicadores são apresentados diretamente no console. No entanto,
 - O script gera logs detalhados em `log/logging_dre_report.txt`.
 - O locale padrão é `pt_BR.UTF-8`, mas pode ser ajustado conforme o sistema.
 - O código está pronto para expansão, com fácil inclusão de novos KPIs ou validações.
+
 - As docstrings e registros de logging foram inicialmente gerados por IA e posteriormente revisados por humanos.
