@@ -1,0 +1,120 @@
+2025-08-06 10:16:25,910 - ERROR - Arquivo de revenue não encontrado: BASE/receitas.csv
+2025-08-06 10:16:25,910 - ERROR - [Errno 2] No such file or directory: 'BASE/receitas.csv'
+2025-08-06 10:18:18,697 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:18:18,697 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: BASE/receitas.csv
+2025-08-06 10:18:18,697 - ERROR - [ERRO] Arquivo de revenue não encontrado: BASE/receitas.csv
+2025-08-06 10:18:18,697 - ERROR - [Errno 2] No such file or directory: 'BASE/receitas.csv'
+2025-08-06 10:19:51,790 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:19:51,790 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:19:51,814 - INFO - [INFO] Arquivo CSV de revenue carregado com sucesso. Linhas: 2411
+2025-08-06 10:19:51,814 - INFO - [INFO] Iniciando leitura do arquivo CSV de expenses: bases/despesas.csv
+2025-08-06 10:19:51,822 - INFO - [INFO] Arquivo CSV de expenses carregado com sucesso. Linhas: 2589
+2025-08-06 10:19:51,822 - INFO - [INFO] Validando e concatenando DataFrames.
+2025-08-06 10:19:51,822 - INFO - [INFO] Concatenando DataFrames de receitas e despesas.
+2025-08-06 10:19:51,823 - INFO - [INFO] Limpando e validando colunas do DataFrame base.
+2025-08-06 10:19:51,885 - INFO - [INFO] Adicionando nome social dos CNPJs.
+2025-08-06 10:19:51,885 - INFO - [INFO] Adicionando coluna 'nome_social' com nome social baseado no CNPJ.
+2025-08-06 10:19:51,885 - INFO - [INFO] Consultando API para CNPJ: 21246584000150
+2025-08-06 10:19:55,309 - INFO - [INFO] Nome social encontrado para CNPJ 21246584000150: FOXBIT SERVICOS DIGITAIS LTDA
+2025-08-06 10:19:55,309 - INFO - [INFO] Consultando API para CNPJ: 61190096000180
+2025-08-06 10:19:58,648 - ERROR - [ERRO] Erro ao consultar API para CNPJ 61190096000180: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/61190096000180
+2025-08-06 10:19:58,648 - INFO - [INFO] Consultando API para CNPJ: 33050067000179
+2025-08-06 10:20:01,995 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33050067000179: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/33050067000179
+2025-08-06 10:20:01,995 - INFO - [INFO] Consultando API para CNPJ: 60746948000112
+2025-08-06 10:20:02,336 - ERROR - [ERRO] Erro ao consultar API para CNPJ 60746948000112: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/60746948000112
+2025-08-06 10:20:02,336 - INFO - [INFO] Consultando API para CNPJ: 33592510000154
+2025-08-06 10:20:02,688 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33592510000154: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33592510000154
+2025-08-06 10:20:02,688 - INFO - [INFO] Consultando API para CNPJ: 02558157000162
+2025-08-06 10:20:03,039 - ERROR - [ERRO] Erro ao consultar API para CNPJ 02558157000162: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/02558157000162
+2025-08-06 10:20:03,039 - INFO - [INFO] Consultando API para CNPJ: 33000167000101
+2025-08-06 10:20:03,414 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33000167000101: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33000167000101
+2025-08-06 10:20:03,418 - INFO - [INFO] Calculando KPIs.
+2025-08-06 10:20:04,276 - INFO - [INFO] DataFrame salvo em: C:\Users\cesar.carvalho\OneDrive - Grupo Primo\Área de Trabalho\Teste ifood\output.xlsx
+2025-08-06 10:20:04,276 - INFO - Tempo de execução: 0:00:12.496464
+2025-08-06 10:25:45,005 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:25:45,005 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:25:45,021 - INFO - [INFO] Arquivo CSV de revenue carregado com sucesso. Linhas: 2411
+2025-08-06 10:25:45,021 - INFO - [INFO] Iniciando leitura do arquivo CSV de expenses: bases/despesas.csv
+2025-08-06 10:25:45,021 - INFO - [INFO] Arquivo CSV de expenses carregado com sucesso. Linhas: 2589
+2025-08-06 10:25:45,021 - INFO - [INFO] Validando e concatenando DataFrames.
+2025-08-06 10:25:45,021 - INFO - [INFO] Concatenando DataFrames de receitas e despesas.
+2025-08-06 10:25:45,021 - INFO - [INFO] Limpando e validando colunas do DataFrame base.
+2025-08-06 10:25:45,099 - INFO - [INFO] Adicionando nome social dos CNPJs.
+2025-08-06 10:25:45,099 - INFO - [INFO] Adicionando coluna 'nome_social' com nome social baseado no CNPJ.
+2025-08-06 10:25:45,099 - INFO - [INFO] Consultando API para CNPJ: 21246584000150
+2025-08-06 10:25:47,321 - INFO - [INFO] Nome social encontrado para CNPJ 21246584000150: FOXBIT SERVICOS DIGITAIS LTDA
+2025-08-06 10:25:47,321 - INFO - [INFO] Consultando API para CNPJ: 61190096000180
+2025-08-06 10:25:50,504 - ERROR - [ERRO] Erro ao consultar API para CNPJ 61190096000180: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/61190096000180
+2025-08-06 10:25:50,504 - INFO - [INFO] Consultando API para CNPJ: 33050067000179
+2025-08-06 10:25:52,698 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33050067000179: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/33050067000179
+2025-08-06 10:25:52,698 - INFO - [INFO] Consultando API para CNPJ: 60746948000112
+2025-08-06 10:25:52,869 - ERROR - [ERRO] Erro ao consultar API para CNPJ 60746948000112: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/60746948000112
+2025-08-06 10:25:52,869 - INFO - [INFO] Consultando API para CNPJ: 33592510000154
+2025-08-06 10:25:53,050 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33592510000154: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33592510000154
+2025-08-06 10:25:53,050 - INFO - [INFO] Consultando API para CNPJ: 02558157000162
+2025-08-06 10:25:53,234 - ERROR - [ERRO] Erro ao consultar API para CNPJ 02558157000162: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/02558157000162
+2025-08-06 10:25:53,234 - INFO - [INFO] Consultando API para CNPJ: 33000167000101
+2025-08-06 10:25:53,418 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33000167000101: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33000167000101
+2025-08-06 10:25:53,418 - INFO - [INFO] Calculando KPIs.
+2025-08-06 10:25:53,433 - ERROR - No module named 'openpyxl'
+2025-08-06 10:26:25,742 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:26:25,742 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:26:25,742 - INFO - [INFO] Arquivo CSV de revenue carregado com sucesso. Linhas: 2411
+2025-08-06 10:26:25,742 - INFO - [INFO] Iniciando leitura do arquivo CSV de expenses: bases/despesas.csv
+2025-08-06 10:26:25,742 - INFO - [INFO] Arquivo CSV de expenses carregado com sucesso. Linhas: 2589
+2025-08-06 10:26:25,742 - INFO - [INFO] Validando e concatenando DataFrames.
+2025-08-06 10:26:25,742 - INFO - [INFO] Concatenando DataFrames de receitas e despesas.
+2025-08-06 10:26:25,742 - INFO - [INFO] Limpando e validando colunas do DataFrame base.
+2025-08-06 10:26:25,821 - INFO - [INFO] Adicionando nome social dos CNPJs.
+2025-08-06 10:26:25,821 - INFO - [INFO] Adicionando coluna 'nome_social' com nome social baseado no CNPJ.
+2025-08-06 10:26:25,821 - INFO - [INFO] Consultando API para CNPJ: 21246584000150
+2025-08-06 10:26:26,010 - ERROR - [ERRO] Erro ao consultar API para CNPJ 21246584000150: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/21246584000150
+2025-08-06 10:26:26,010 - INFO - [INFO] Consultando API para CNPJ: 61190096000180
+2025-08-06 10:26:26,204 - ERROR - [ERRO] Erro ao consultar API para CNPJ 61190096000180: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/61190096000180
+2025-08-06 10:26:26,204 - INFO - [INFO] Consultando API para CNPJ: 33050067000179
+2025-08-06 10:26:26,366 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33050067000179: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33050067000179
+2025-08-06 10:26:26,366 - INFO - [INFO] Consultando API para CNPJ: 60746948000112
+2025-08-06 10:26:26,539 - ERROR - [ERRO] Erro ao consultar API para CNPJ 60746948000112: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/60746948000112
+2025-08-06 10:26:26,539 - INFO - [INFO] Consultando API para CNPJ: 33592510000154
+2025-08-06 10:26:26,710 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33592510000154: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33592510000154
+2025-08-06 10:26:26,710 - INFO - [INFO] Consultando API para CNPJ: 02558157000162
+2025-08-06 10:26:26,880 - ERROR - [ERRO] Erro ao consultar API para CNPJ 02558157000162: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/02558157000162
+2025-08-06 10:26:26,880 - INFO - [INFO] Consultando API para CNPJ: 33000167000101
+2025-08-06 10:26:27,069 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33000167000101: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33000167000101
+2025-08-06 10:26:27,069 - INFO - [INFO] Calculando KPIs.
+2025-08-06 10:26:27,823 - INFO - [INFO] DataFrame salvo em: C:\Users\cesar.carvalho\OneDrive - Grupo Primo\Área de Trabalho\Teste ifood\output.xlsx
+2025-08-06 10:26:27,823 - INFO - Tempo de execução: 0:00:02.096964
+2025-08-06 10:34:33,648 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:34:33,648 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:34:33,664 - ERROR - [ERRO] Arquivo de revenue não encontrado: bases/receitas.csv
+2025-08-06 10:34:33,664 - ERROR - [Errno 2] No such file or directory: 'bases/receitas.csv'
+2025-08-06 10:35:04,913 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:35:04,913 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:35:04,915 - ERROR - [ERRO] Arquivo de revenue não encontrado: bases/receitas.csv
+2025-08-06 10:35:04,915 - ERROR - [Errno 2] No such file or directory: 'bases/receitas.csv'
+2025-08-06 10:36:20,284 - INFO - [INFO] Iniciando carregamento dos DataFrames de receitas e despesas.
+2025-08-06 10:36:20,284 - INFO - [INFO] Iniciando leitura do arquivo CSV de revenue: bases/receitas.csv
+2025-08-06 10:36:20,299 - INFO - [INFO] Arquivo CSV de revenue carregado com sucesso. Linhas: 2411
+2025-08-06 10:36:20,299 - INFO - [INFO] Iniciando leitura do arquivo CSV de expenses: bases/despesas.csv
+2025-08-06 10:36:20,315 - INFO - [INFO] Arquivo CSV de expenses carregado com sucesso. Linhas: 2589
+2025-08-06 10:36:20,315 - INFO - [INFO] Validando e concatenando DataFrames.
+2025-08-06 10:36:20,315 - INFO - [INFO] Concatenando DataFrames de receitas e despesas.
+2025-08-06 10:36:20,315 - INFO - [INFO] Limpando e validando colunas do DataFrame base.
+2025-08-06 10:36:20,410 - INFO - [INFO] Adicionando nome social dos CNPJs.
+2025-08-06 10:36:20,410 - INFO - [INFO] Adicionando coluna 'nome_social' com nome social baseado no CNPJ.
+2025-08-06 10:36:20,410 - INFO - [INFO] Consultando API para CNPJ: 21246584000150
+2025-08-06 10:36:21,678 - INFO - [INFO] Nome social encontrado para CNPJ 21246584000150: FOXBIT SERVICOS DIGITAIS LTDA
+2025-08-06 10:36:21,678 - INFO - [INFO] Consultando API para CNPJ: 61190096000180
+2025-08-06 10:36:24,865 - ERROR - [ERRO] Erro ao consultar API para CNPJ 61190096000180: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/61190096000180
+2025-08-06 10:36:24,865 - INFO - [INFO] Consultando API para CNPJ: 33050067000179
+2025-08-06 10:36:27,051 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33050067000179: 400 Client Error: Bad Request for url: https://publica.cnpj.ws/cnpj/33050067000179
+2025-08-06 10:36:27,051 - INFO - [INFO] Consultando API para CNPJ: 60746948000112
+2025-08-06 10:36:27,220 - ERROR - [ERRO] Erro ao consultar API para CNPJ 60746948000112: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/60746948000112
+2025-08-06 10:36:27,220 - INFO - [INFO] Consultando API para CNPJ: 33592510000154
+2025-08-06 10:36:27,392 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33592510000154: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33592510000154
+2025-08-06 10:36:27,392 - INFO - [INFO] Consultando API para CNPJ: 02558157000162
+2025-08-06 10:36:27,564 - ERROR - [ERRO] Erro ao consultar API para CNPJ 02558157000162: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/02558157000162
+2025-08-06 10:36:27,564 - INFO - [INFO] Consultando API para CNPJ: 33000167000101
+2025-08-06 10:36:27,733 - ERROR - [ERRO] Erro ao consultar API para CNPJ 33000167000101: 429 Client Error: Too Many Requests for url: https://publica.cnpj.ws/cnpj/33000167000101
+2025-08-06 10:36:27,741 - INFO - [INFO] Calculando KPIs.
+2025-08-06 10:36:27,760 - INFO - Tempo de execução: 0:00:07.492412
