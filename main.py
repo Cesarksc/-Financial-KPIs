@@ -399,7 +399,6 @@ class Main:
         self.csv_data_loader_instance = CSVDataFrameLoader(csv_paths)
 
     @log_error_decorator
-
     def run(self) -> tuple[pd.DataFrame, pd.DataFrame]:
         """
         Executa o processamento principal do script.
@@ -513,4 +512,5 @@ def main() -> tuple[pd.DataFrame, pd.DataFrame]:
     return df_revenue, df_expenses
 
 if __name__ == "__main__":
+
     main()
